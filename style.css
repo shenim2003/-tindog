@@ -56,18 +56,6 @@ h1{
     color: white;
 }
 
-.btn{
-    display: flex;
-    gap: 3px;
-    align-items: center;
-}
-
-.btn-2{
-    display: flex;
-    gap: 3px;
-    align-items: center;
-    color: white;
-}
 
 .download-icons{
     display: flex;
@@ -182,6 +170,7 @@ h1{
 
 .dog-img img{
     padding: 48px 0px 0px 0px ;
+    flex-wrap: wrap;
 }
 .download-icons{
     display: flex;
