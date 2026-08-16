@@ -1,0 +1,199 @@
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	min-height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+h1{
+    margin: 0rem 0rem 1rem 0rem;
+    font-size: 3rem;
+    font-weight: 700;
+
+}
+
+.container-1{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    gap: 10rem;
+    padding: 48px 0px 0px 0px;
+}
+
+.dog-img img{
+    padding: 48px 0px 0px 0px ;
+}
+
+.features{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 0px 0px 0px 0px;
+}
+
+.download-1{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+}
+
+.download-2{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.btn{
+    display: flex;
+    gap: 3px;
+    align-items: center;
+}
+
+.btn-2{
+    display: flex;
+    gap: 3px;
+    align-items: center;
+    color: white;
+}
+
+.download-icons{
+    display: flex;
+    gap: 1rem;
+
+}
+
+.icon-square{
+    width: 3rem;
+    height: 3rem;
+    border-radius: .75rem;
+}
+
+.display-5{
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    text-align: center;
+    padding: 3rem ;
+}
+
+.col-md-12{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 0rem 0rem 3rem 0rem;
+}
+
+.profile{
+    display: flex;
+    justify-content: center;
+}
+
+.container-fluid .profile img{
+    border-radius: 50%;
+}
+
+.item-techcrunch{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item-mashable{
+   display: flex;
+   flex: 1;
+   flex-wrap: wrap;
+    justify-content: center; 
+}
+
+.item-bizinsider{
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item-tnw{
+ display: flex;
+ flex: 1;
+ flex-wrap: wrap;
+    justify-content: center;   
+}
+
+.container-testimonial{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(235, 234, 232)
+}
+
+.pricing-text{
+    text-align: center;
+    padding: 60px 0px 0px 0px;
+
+}
+
+.pricing-text h2{
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.pricing-text h3{
+    font-size: 20px;
+    font-weight: 300;
+    padding: 0px 0px 40px 0px ;
+}
+
+.pricing-bg{
+    background-color: white;
+    padding: 0px 0px 30px 0px ;
+}
+
+@media(max-width:768px){
+
+    h1{
+    margin: 0rem 0rem 1rem 0rem;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.container-1{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    justify-content: center; 
+    gap: 2rem;
+    padding: 48px 0px 0px 0px;
+}
+
+.dog-img img{
+    padding: 48px 0px 0px 0px ;
+}
+.download-icons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+
+}
+}
+
+
+
+
+
